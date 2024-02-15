@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    
+</head>
+<body>
+    <!----------------Header Section------------------>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li> 
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Our Certificate & Online Programs For 2023</h1>
+        
+    </section>
+<!---------- blog page content-------->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="img/certificate.jpg">
+            <h2>Our Certificate & Online Programs For 2023</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum facere laborum tenetur deleniti,
+                 dolore error alias omnis, similique enim sequi at dignissimos obcaecati reiciendis sapiente,
+                  sunt officiis inventore! Qui, ut.</p><br>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur atque rerum tempora quibusdam modi.
+                     Ex illum dolores distinctio molestias vero.
+                      At quos quod repellat officiis, iure possimus accusamus voluptas ex! </p><br>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim quibusdam laborum voluptate beatae velit ipsam iure<br>
+                         ipsum minus vero possimus animi dicta quia soluta aliquam mollitia, debitis eligendi quos in.</p><br>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia consectetur dolorem optio qui iste ipsam error nobis explicabo corporis voluptate,
+                             veniam fuga eligendi ut blanditiis quas accusantium possimus. Est, voluptatum?</p><br>
+                             <div class="comment-box">
+                                <h3>Leave A Comment</h3>
+                                <form class="comment-form">
+                                 <input type="text" placeholder="Enter Name">
+                                 <input type="email" placeholder="Enter Email">
+                                 <textarea rows="5" placeholder="Your Comment"></textarea>
+                                 <button type="submit" class="comment-btn">Post comment</button>
+                                </form>
+                             </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <Span>Business Analytics</Span>
+                <Span>21</Span>
+            </div>
+            <div>
+                <Span>Data Science</Span>
+                <Span>28</Span>
+            </div>
+            <div>
+                <Span>Machine Learning </Span>
+                <Span>15</Span>
+            </div>
+            <div>
+                <Span>Computer Science</Span>
+                <Span>34</Span>
+            </div>
+            <div>
+                <Span>AutoCAD</Span>
+                <Span>42</Span>
+            </div>
+            <div>
+                <Span>Journalism</Span>
+                <Span>22</Span>
+            </div>
+            <div>
+                <Span>Commerce</Span>
+                <Span>30</Span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--------------------------------footer section----------------------------------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We’re a leading research university with a heart. Founded in the decade that the U.S. 
+        Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university. 
+        We’re a community of people who bridge our disparate experiences and identities. Meet the 
+        people and places that make Eduford home.
+    </p>
+    <div class="icons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i> BY Tasneem AbdElhakeem</p>
+</section>
+
+    
+<!----------------Javascript for toggle menu------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right ="0";
+        }
+        function hideMenu() {
+            navLinks.style.right ="-200px";
+        }
+    </script>
+
+</body>
+</html>
